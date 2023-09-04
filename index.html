@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo-Liste2</title>
+</head>
+<body>
+
+<h1>Body-Mass-Index-Rechner</h1>
+<div class="BMI">
+<h3>Online-BMI-Berechnung für Erwachsene</h3>
+
+<h5>Eine BMI-Rechner für Kinder finden Sie hier:<a href="https://www.w3schools.com">BZgA-BMI-Rechner für Kinder</a></h5>
+<div class="BMI-Rechner">
+<h3>Bitte geben Sie Ihre Körpergröße ein:</h3>
+<h3>Körpergröße in cm: <input type="text" id="taskInput" placeholder="Hier fehlt was..."></h3>
+<h3>Bitte geben Sie Ihre Körpergewicht ein:</h3>
+<h3>Körpergewicht in kg: <input type="text" id="taskInput" placeholder="Hier fehlt was..."></h3>
+
+<button>BMI Berechnen</button>
+
+<h3>Ihr Body-Mass-Index beträgt:</h3>
+</div>
+<table>
+  <tr>
+    <th>BMI-Wert</th>
+    <th>Bedeutung</th>
+  </tr>
+  <tr>
+    <th>-------------------</th>
+    <th>-------------------</th>
+  </tr>
+  <tr>
+    <td>unter 18,5</td>
+    <td>Untergewicht</td>
+   </tr>
+   <tr>
+    <td>18,5 - 24,9</td>
+    <td>Normalgewicht</td>
+  </tr>
+   <tr>
+    <td>25 - 29,9</td>
+     <td>Übergewicht</td>     
+   </tr>
+   <tr>
+    <td>ab 30</td>
+    <td>Adipositas</td>
+   </tr>
+</table>
+
+<h3>BMI-Wert:</h3>
+</div>
+<div class="todo-container">
+    <h2>Todo-Liste</h2>
+    <input type="text" id="taskInput" placeholder="Neue Aufgabe eingeben">
+    <button id="addButton">Hinzufügen</button>
+    <ul id="taskList">
+    </ul>
+  </div>
+</div>  
+  <script src="script.js"></script>
+</body>
+</html>
